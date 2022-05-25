@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_qualities",
+  "info": {
+    "singularName": "item-quality",
+    "pluralName": "item-qualities",
+    "displayName": "ItemQuality"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

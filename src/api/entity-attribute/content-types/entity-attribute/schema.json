@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entity_attributes",
+  "info": {
+    "singularName": "entity-attribute",
+    "pluralName": "entity-attributes",
+    "displayName": "EntityAttribute",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "biginteger"
+    },
+    "attribute": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::attribute.attribute"
+    }
+  }
+}

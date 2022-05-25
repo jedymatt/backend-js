@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "character_attributes",
+  "info": {
+    "singularName": "character-attribute",
+    "pluralName": "character-attributes",
+    "displayName": "CharacterAttribute"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "biginteger"
+    }
+  }
+}

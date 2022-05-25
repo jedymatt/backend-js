@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "character_items",
+  "info": {
+    "singularName": "character-item",
+    "pluralName": "character-items",
+    "displayName": "CharacterItem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    }
+  }
+}

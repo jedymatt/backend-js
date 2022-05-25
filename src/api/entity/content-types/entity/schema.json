@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entities",
+  "info": {
+    "singularName": "entity",
+    "pluralName": "entities",
+    "displayName": "Entity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::location.location",
+      "inversedBy": "entities"
+    },
+    "entity_attributes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::entity-attribute.entity-attribute"
+    },
+    "entity_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::entity-type.entity-type"
+    }
+  }
+}
