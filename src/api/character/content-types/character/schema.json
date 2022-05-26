@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "discordId": {
-      "type": "biginteger"
+      "type": "string"
     },
     "level": {
       "type": "integer"
